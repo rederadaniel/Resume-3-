@@ -1,0 +1,195 @@
+body{
+    background-color: #888;
+  }
+  
+  .Name {
+    font-size: 2.5rem;
+  }
+  
+  html {
+    font-size: 32.5%;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1e293b;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #888;
+  }
+  
+  .name-and-contact {
+    width: 50%;
+  }
+  
+  .name {
+    font-size: 3.4rem;
+    font-weight: bold;
+  }
+  
+  .contact-info {
+    font-size: 2.5rem;
+    margin-top: 5rem;
+    line-height: 1.5rem;
+  }
+  
+  .contact-box {
+    border: 1px solid #fff;
+    padding: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: #2c3e50;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #888;
+  }
+  
+  .contact-label {
+    font-weight: bold;
+  }
+  
+  .languages {
+    width: 60%;
+    margin-left: 20px;
+    color: #fff;
+  }
+  
+  .languages-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .languages-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 1rem;
+  }
+  
+  .languages-list li {
+    border: 1px solid #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 2.3rem;
+    color: #fff;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 20px;
+  }
+  
+  .experience,
+  .skills,
+  .education,
+  .hobbies-and-talents,
+  .additional-info {
+    width: 100%;
+  }
+  
+  .experience {
+    padding: 10px;
+    position: center;
+    background-color: #2c3e50;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #888;
+  }
+  
+  .experience-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+  }
+  
+  .experience-item {
+    margin-bottom: 20px;
+    display: center;
+    justify-content: space-between;
+  }
+  
+  .experience-item-title {
+    font-size: 3.8rem;
+    font-weight: bold;
+  }
+  
+  .experience-item-company,
+  .experience-item-dates {
+    font-size: 3.6rem;
+    font-weight: normal;
+    color: #888;
+  }
+  
+  .experience-item-responsibilities {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-top: 5px;
+  }
+  
+  .experience-item-responsibilities li {
+    font-size: 2.6rem;
+    line-height: 0.5rem;
+  }
+  
+  .skills {
+    padding: 20px;
+    background-color: #1e293b;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #888;
+  }
+  
+  .skills-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .skills-list li {
+    background-color: #2c3e50;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hobbies-and-talents {
+    padding: 20px;
+    background-color: #1e293b;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #888;
+  }
+  
+  .hobbies-and-talents-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+  
+  .hobbies-and-talents-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .hobbies-and-talents-list li {
+    border: 1px solid #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+  }
